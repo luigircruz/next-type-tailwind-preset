@@ -2,7 +2,7 @@ A starter preset for [NextJS](https://nextjs.org), [TypeScript](https://www.type
 
 ![Homepage View](./public/og-next-typescript-tailwind-preset.png)
 
-This preset includes [Prettier](https://prettier.io) for code formatting and the `jsconfig.json` have been configured for importing from path purposes.
+This preset includes [Prettier](https://prettier.io) for code formatting and the `tsconfig.json` have been configured out of the box.
 
 ## Getting Started
 
