@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A starter preset for [NextJS](https://nextjs.org), [TypeScript](https://www.typescriptlang.org) and [TailwindCSS](https://tailwindcss.com), jumpstarting your application's development.
+
+![Homepage View](./public/og-next-typescript-tailwind-preset.png)
+
+This preset includes [Prettier](https://prettier.io) for code formatting and the `jsconfig.json` have been configured for importing from path purposes.
 
 ## Getting Started
 
-First, run the development server:
+1. First, you'll need to clone this repo. **NOTE** that you have to replace the "`project-name`" with the name of your project.
 
+```bash
+git clone https://github.com/luigircruz/next-type-tailwind-preset.git project-name
+```
+
+2. Change directory to your project.
+
+```bash
+cd project-name
+```
+
+3. Install the project's dependencies.
+
+```bash
+npm install
+# or
+yarn
+```
+
+4. Run your development server:
+◊
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open http://localhost:3000 with your browser to see the result. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+And that's it! You now have a starter project with tailwind support in less than a minute.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tips
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To format your codes via **Prettier**, just use the format command.
 
-## Learn More
+```bash
+yarn format
+```
 
-To learn more about Next.js, take a look at the following resources:
+To build and run your application, just use the build-start command.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn build-start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Instead of figuring out the path of your imports, just prefix your directory paths to `@/directory`.
 
-## Deploy on Vercel
+Examples:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```js
+import '@/styles/globals.css'
+import MyComponent from '@/components/MyComponent'
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can find all of the configured paths on the [tsconfig.json](./tsconfig.json) file.
