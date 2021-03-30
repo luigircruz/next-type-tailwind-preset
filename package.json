@@ -10,7 +10,7 @@
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,jsx,ts,tsx,mdx}' --write"
   },
   "dependencies": {
-    "next": "10.0.9",
+    "next": "10.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
