@@ -10,7 +10,7 @@
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,jsx,ts,tsx,mdx}' --write"
   },
   "dependencies": {
-    "next": "10.2.0",
+    "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -19,10 +19,10 @@
     "@types/node": "^15.0.1",
     "@types/react": "^17.0.4",
     "@types/react-dom": "^17.0.3",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.13",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.2",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.1",
+    "prettier": "^2.3.1",
+    "tailwindcss": "^2.1.4",
     "typescript": "^4.2.4"
   }
 }
