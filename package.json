@@ -10,19 +10,19 @@
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,jsx,ts,tsx,mdx}' --write"
   },
   "dependencies": {
-    "next": "10.2.3",
+    "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.12.2",
-    "@types/react": "^17.0.11",
-    "@types/react-dom": "^17.0.7",
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.1",
-    "prettier": "^2.3.1",
-    "tailwindcss": "^2.1.4",
-    "typescript": "^4.3.2"
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5"
   }
 }
