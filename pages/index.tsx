@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -56,11 +57,14 @@ export default function Home() {
           className="flex items-center justify-center"
         >
           Made with ❤️ by{' '}
-          <img
-            src="https://luigicruz.dev/logo-soft.svg"
-            alt="Luigi Controller Logo"
-            className="w-6 h-6 ml-2"
-          />
+          <div className="w-6 h-6 ml-2">
+            <Image
+              src={`https://luigicruz.dev/logo-soft.svg`}
+              alt={`Luigi Controller Logo`}
+              width={24}
+              height={24}
+            />
+          </div>
         </a>
       </footer>
     </div>
