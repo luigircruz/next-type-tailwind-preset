@@ -9,7 +9,7 @@ This preset includes [Prettier](https://prettier.io) for code formatting and the
 1. First, you'll need to clone this repo. **NOTE** that you have to replace the "`project-name`" with the name of your project.
 
 ```bash
-git clone https://github.com/luigircruz/next-type-tailwind-preset.git project-name
+git clone --depth=1 https://github.com/luigircruz/next-type-tailwind-preset.git project-name
 ```
 
 2. Change directory to your project.
