@@ -6,4 +6,5 @@ module.exports = {
   images: {
     domains: ['luigicruz.dev'],
   },
+  experimental: { esmExternals: true },
 }
