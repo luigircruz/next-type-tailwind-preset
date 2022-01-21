@@ -11,22 +11,22 @@
     "format": "prettier '{components,data,hooks,layouts,lib,pages,scripts,styles,utils}/**/*.{css,js,jsx,ts,tsx,mdx}' --write"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "next": "12.0.8",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.7",
-    "@types/react": "^17.0.35",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.10",
+    "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "autoprefixer": "^10.4.0",
-    "eslint": "<8.0.0",
-    "eslint-config-next": "^12.0.4",
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.7.0",
+    "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
-    "postcss": "^8.3.11",
-    "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.19",
-    "typescript": "^4.5.2"
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.15",
+    "typescript": "^4.5.5"
   }
 }

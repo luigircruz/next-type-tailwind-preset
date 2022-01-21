@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center flex-1 px-6 py-20 sm:px-0">
         <h1 className="flex flex-col items-center justify-center m-0 text-4xl text-center sm:text-7xl">
           <span>You are now using</span>
-          <a href="#" className="mt-4 text-blue-500 no-underline hover:underline focus:underline">
+          <a href="#" className="mt-4 no-underline text-sky-500 hover:underline focus:underline">
             NextJS + Typescript + TailwindCSS!
           </a>
         </h1>
